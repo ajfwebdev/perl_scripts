@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+# This script was created to fix the directory and file names written by the Asunder 
+# program on Linux (Asunder writes mp3 files with names based on the CD track names).
+
 use strict;
 
 my $old_dir = $ARGV[0];
